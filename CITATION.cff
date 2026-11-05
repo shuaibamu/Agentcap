@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "AgentCap: Attestation-Bound, Offline-Attenuable Delegation for LLM Multi-Agent Systems in Distributed Edge Environments"
+authors:
+  - {family-names: Shuaib, given-names: Mohammed, email: msashraf@jazanu.edu.sa}
+  - {family-names: Dixit, given-names: Ashish}
+  - {family-names: Khan, given-names: Ijtaba Saleem}
+  - {family-names: Almolhis, given-names: Nawaf Abdualaziz}
+  - {family-names: Bayahya, given-names: Areej Y.}
+  - {family-names: Duraibi, given-names: Salahaldeen, email: sduraibi@jazanu.edu.sa}
+  - {family-names: Murugesan, given-names: Anbarasan}
+  - {family-names: Yaseen, given-names: Aftab}
+type: software
+license: MIT
+date-released: "2026-10-20"
+preferred-citation:
+  type: article
+  title: "AgentCap: Attestation-Bound, Offline-Attenuable Delegation for LLM Multi-Agent Systems in Distributed Edge Environments"
+  authors:
+    - {family-names: Shuaib, given-names: Mohammed}
+    - {family-names: Dixit, given-names: Ashish}
+    - {family-names: Khan, given-names: Ijtaba Saleem}
+    - {family-names: Almolhis, given-names: Nawaf Abdualaziz}
+    - {family-names: Bayahya, given-names: Areej Y.}
+    - {family-names: Duraibi, given-names: Salahaldeen}
+    - {family-names: Murugesan, given-names: Anbarasan}
+    - {family-names: Yaseen, given-names: Aftab}
+  journal: "Cluster Computing"
+  year: 2026
+  status: submitted

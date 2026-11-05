@@ -1,0 +1,359 @@
+{
+ "attacks": {
+  "forward": {
+   "agentcap": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   },
+   "macaroon": {
+    "trials": 1000,
+    "success": 1000,
+    "rate": 1.0
+   },
+   "ucan": {
+    "trials": 250,
+    "success": 0,
+    "rate": 0.0
+   },
+   "jwt": {
+    "trials": 1000,
+    "success": 1000,
+    "rate": 1.0
+   },
+   "tedpop": {
+    "trials": 250,
+    "success": 0,
+    "rate": 0.0
+   },
+   "acesym": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   }
+  },
+  "replay": {
+   "agentcap": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   },
+   "macaroon": {
+    "trials": 1000,
+    "success": 1000,
+    "rate": 1.0
+   },
+   "ucan": {
+    "trials": 250,
+    "success": 0,
+    "rate": 0.0
+   },
+   "jwt": {
+    "trials": 1000,
+    "success": 1000,
+    "rate": 1.0
+   },
+   "tedpop": {
+    "trials": 250,
+    "success": 0,
+    "rate": 0.0
+   },
+   "acesym": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   }
+  },
+  "tamper": {
+   "agentcap": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   },
+   "macaroon": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   },
+   "ucan": {
+    "trials": 250,
+    "success": 0,
+    "rate": 0.0
+   },
+   "jwt": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   },
+   "tedpop": {
+    "trials": 250,
+    "success": 0,
+    "rate": 0.0
+   },
+   "acesym": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   }
+  },
+  "truncate": {
+   "agentcap": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   },
+   "macaroon": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   },
+   "ucan": {
+    "trials": 250,
+    "success": 0,
+    "rate": 0.0
+   },
+   "jwt": null,
+   "tedpop": null,
+   "acesym": null
+  },
+  "rogue": {
+   "agentcap": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   },
+   "macaroon": {
+    "trials": 1000,
+    "success": 1000,
+    "rate": 1.0
+   },
+   "ucan": {
+    "trials": 250,
+    "success": 250,
+    "rate": 1.0
+   },
+   "jwt": {
+    "trials": 1000,
+    "success": 1000,
+    "rate": 1.0
+   },
+   "tedpop": {
+    "trials": 250,
+    "success": 250,
+    "rate": 1.0
+   },
+   "acesym": {
+    "trials": 1000,
+    "success": 1000,
+    "rate": 1.0
+   }
+  },
+  "insider": {
+   "agentcap": {
+    "trials": 1000,
+    "success": 1000,
+    "rate": 1.0
+   },
+   "macaroon": {
+    "trials": 1000,
+    "success": 1000,
+    "rate": 1.0
+   },
+   "ucan": {
+    "trials": 250,
+    "success": 250,
+    "rate": 1.0
+   },
+   "jwt": {
+    "trials": 1000,
+    "success": 1000,
+    "rate": 1.0
+   },
+   "tedpop": {
+    "trials": 250,
+    "success": 250,
+    "rate": 1.0
+   },
+   "acesym": {
+    "trials": 1000,
+    "success": 1000,
+    "rate": 1.0
+   }
+  },
+  "crossdev": {
+   "agentcap": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   },
+   "macaroon": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   },
+   "ucan": {
+    "trials": 250,
+    "success": 0,
+    "rate": 0.0
+   },
+   "jwt": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   },
+   "tedpop": {
+    "trials": 250,
+    "success": 0,
+    "rate": 0.0
+   },
+   "acesym": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   }
+  },
+  "forge": {
+   "agentcap": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   },
+   "macaroon": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   },
+   "ucan": {
+    "trials": 250,
+    "success": 0,
+    "rate": 0.0
+   },
+   "jwt": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   },
+   "tedpop": {
+    "trials": 250,
+    "success": 0,
+    "rate": 0.0
+   },
+   "acesym": {
+    "trials": 1000,
+    "success": 0,
+    "rate": 0.0
+   }
+  },
+  "ablation_noatt_rogue": {
+   "trials": 1000,
+   "success": 1000,
+   "rate": 1.0
+  }
+ },
+ "blast": {
+  "ms": [
+   1,
+   2,
+   4,
+   8,
+   16,
+   32,
+   64
+  ],
+  "sessions": 300,
+  "rate": {
+   "owner": {
+    "1": 0.9666666666666667,
+    "2": 1.0,
+    "4": 1.0,
+    "8": 1.0,
+    "16": 1.0,
+    "32": 1.0,
+    "64": 1.0
+   },
+   "oauth": {
+    "1": 0.056666666666666664,
+    "2": 0.06,
+    "4": 0.15,
+    "8": 0.23,
+    "16": 0.35,
+    "32": 0.51,
+    "64": 0.6166666666666667
+   },
+   "agentcap": {
+    "1": 0.0,
+    "2": 0.0,
+    "4": 0.0,
+    "8": 0.0,
+    "16": 0.0,
+    "32": 0.0,
+    "64": 0.0
+   },
+   "agentcap_sub": {
+    "1": 0.0,
+    "2": 0.0,
+    "4": 0.0,
+    "8": 0.0,
+    "16": 0.0,
+    "32": 0.0,
+    "64": 0.0
+   }
+  },
+  "adaptive": {
+   "owner": 1.0,
+   "oauth": 0.6733333333333333,
+   "agentcap": 0.0,
+   "agentcap_sub": 0.0
+  },
+  "in_intent": {
+   "owner": 0.4866666666666667,
+   "oauth": 0.4866666666666667,
+   "agentcap": 0.4866666666666667,
+   "agentcap_sub": 0.4866666666666667
+  }
+ },
+ "revocation": [
+  {
+   "k": 1,
+   "agentcap_bytes": 8,
+   "per_token_bytes": 16,
+   "blocked": 1,
+   "root_ok": true
+  },
+  {
+   "k": 4,
+   "agentcap_bytes": 8,
+   "per_token_bytes": 40,
+   "blocked": 4,
+   "root_ok": true
+  },
+  {
+   "k": 16,
+   "agentcap_bytes": 8,
+   "per_token_bytes": 136,
+   "blocked": 16,
+   "root_ok": true
+  },
+  {
+   "k": 64,
+   "agentcap_bytes": 8,
+   "per_token_bytes": 520,
+   "blocked": 64,
+   "root_ok": true
+  },
+  {
+   "k": 256,
+   "agentcap_bytes": 8,
+   "per_token_bytes": 2056,
+   "blocked": 256,
+   "root_ok": true
+  },
+  {
+   "k": 1024,
+   "agentcap_bytes": 8,
+   "per_token_bytes": 8200,
+   "blocked": 1024,
+   "root_ok": true
+  }
+ ]
+}
